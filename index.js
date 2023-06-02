@@ -5,6 +5,9 @@ const path = require('path');
 const morgan = require("morgan");
 const port = 5000
 const route = require('./routes/index')
+//Connect MongoDB
+const db = require('./config/db');
+db.connect();
 //HTTP
 app.use(morgan("combined"));
 app.engine('handlebars',handlebars());

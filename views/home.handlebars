@@ -1,0 +1,23 @@
+<div class="row" style="padding-top: 20px ;">
+    <div class="col-md-5 ">
+        <div class="row">
+             {{#each courses }}
+            <div class="col-md-4 col-5">
+                <a href="/courses/{{this.slug}}">
+                <img class="kardon"
+                    src="{{this.image}}"
+                    alt="img-fluid">
+                    </a>
+            </div>
+            <div class="col-md-8 col-7 msi">
+                <h3>{{this.name}}
+                </h3>
+                <p>----------------------------</p>
+                <p>{{this.decsription}}<br> Consectetur Adipisicing Elit.</p>
+                  <button type="button" class="btnarrS">Detail</button>
+            </div>
+             {{/each}}
+        </div>
+    </div>
+   
+</div>

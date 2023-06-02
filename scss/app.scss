@@ -1,3 +1,30 @@
-.h2{
-   color: aqua;
+.rows {
+   background: #4f2916;
+   color: #f0eae5;
+}
+
+.coffe>p {
+   text-align: center;
+   padding-top: 5px;
+}
+
+.coffe1 {
+   text-align: center;
+   border-left: aliceblue 0.5px dotted;
+   border-right: aliceblue 0.5px dotted;
+}
+
+.coffe1>img {
+   padding-top: 5px;
+}
+
+.coffe2 {
+   text-align: center;
+   padding: 10px;
+}
+
+.coffe2>select {
+   border-style: none;
+   background-color: #4f2916;
+   color: #f6f1e9;
 }
